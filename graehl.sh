@@ -27,6 +27,7 @@ Thumbs.db
 # apologies if you use this name for non-trash
 trash.*
 EOF
+ln -sf .gdbinit ~/.gdbinit
 ln -sf .gitexcludes ~/.agignore
 cd ~
 git clone git@github.com:graehl/carmel.git g
@@ -114,3 +115,4 @@ while(<>) {
 }
 EOF
 chmod +x filter-gcc-errors
+)
